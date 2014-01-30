@@ -74,3 +74,11 @@ public class Customer {
 The table will look like the one below:
 
 ![Generated table](https://github.com/sewdil/SwingTableModel/blob/master/images/exampleTable.jpg?raw=true)
+
+##Example Usage:
+
+```java
+GenericTableModel<Customer> customerTableModel = new GenericTableModel<Customer>(new Customer());
+JTable tblCustomer = new JTable(customerTableModel);
+```
+A working example is included in the src.
